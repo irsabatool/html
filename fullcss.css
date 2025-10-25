@@ -1,0 +1,150 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #079e78;
+    color: rgb(255, 255, 255);
+
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+    
+     
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(rgba(230, 231, 170, 0.7), #f6fffc, rgba(230, 231, 170, 0.7));
+    color:#00644b;
+    opacity: 100;
+}
+
+button{
+    background-color: azure;
+    color: #004aad;
+    position: center;
+    box-shadow: #004aad;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#008c6b;
+    padding-left: 20px;
+}
+
+
+
+
+
+h3::before {
+    content: "✅";
+    margin-right: 8px;
+    font-size: 1.1em;
+    vertical-align: middle;
+    color: #008c6b;
+    
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #b9fbc0;
+}
+
+section h2{
+    color: #00644b;
+    background-color: rgb(252, 253, 253);
+    text-align: center;
+    text-decoration:underline;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+section p {
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+
+div p{
+    color: #1f2937;
+}
+
+
+
+.col{
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+button {
+    background-color: #00644b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d37;
+    transform: translateY(-2px);
+}
+
+h2 {
+    color: #00644b;
+}
+
+h3 {
+    color: #008c6b;
+    font-weight: 600;
+}
+
+
+footer {
+    background-color: #00644b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer p{
+    color: #f6fffc;
+}
+
+   
