@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Enhance Institute - Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #dbe4ff, #f8f9ff);
+            padding: 40px;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            max-width: 650px;
+            margin: auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+            animation: slideUp 0.9s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            color: #3b4cca;
+            margin-bottom: 25px;
+            font-size: 30px;
+            font-weight: bold;
+            animation: pop 0.8s ease-in-out;
+        }
+
+        @keyframes pop {
+            0% {
+                transform: scale(0.8);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 15px;
+            display: block;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="file"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border: 1px solid #bfc4d4;
+            border-radius: 10px;
+            transition: 0.3s ease;
+        }
+
+        input:hover,
+        input:focus {
+            border-color: #4a6cf7;
+            box-shadow: 0 0 8px rgba(74, 108, 247, 0.4);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(90deg, #4a6cf7, #6f86ff);
+            border: none;
+            color: #fff;
+            margin-top: 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background: linear-gradient(90deg, #3a56d4, #5b72ff);
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+            animation: fadeIn 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Skill Enhance Institute<br>Admission Form</h2>
+
+        <form action="mailto:irsabatool915@gmail.com" method="post" enctype="multipart/form-data">
+            <label>Full Name:</label>
+            <input type="text" name="fullName" placeholder="Enter your full name" required />
+
+            <label>Course Name:</label>
+            <input type="text" name="courseName" placeholder="Enter the course you are applying for" required />
+
+            <label>Email Address:</label>
+            <input type="email" name="email" placeholder="Enter your email" required />
+
+            <label>WhatsApp Contact Number:</label>
+            <input type="text" name="whatsapp" placeholder="Enter your WhatsApp number" required />
+
+            <label>Screenshot of Payment:</label>
+            <input type="file" name="paymentScreenshot" accept="image/*" required />
+
+            <button type="submit">Submit Admission Form</button>
+        </form>
+
+        <p class="footer-text">© Skill Enhance Institute - All Rights Reserved</p>
+    </div>
+</body>
+
+</html>
