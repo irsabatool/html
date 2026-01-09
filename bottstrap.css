@@ -1,0 +1,16 @@
+ h1 {
+     color: #FF6F91;
+     text-align: center;
+     margin-top: 30px;
+     
+     background: linear-gradient pink;
+ }
+ 
+ p{
+    color: #6A5ACD;
+    font-size: 18px;
+ }
+ body {
+     background-color: #FFF6CC;
+     font-family: 'Comic Neue', cursive;
+ }
